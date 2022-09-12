@@ -435,9 +435,9 @@
             </li>
           </ul>
         </div>
-        <div class="subscription">
+        <form class="subscription-form">
           <p class="subscription-text">Підпишіться на розсилку</p>
-          <label for="" class="subscription-footer"
+          <label class="subscription-footer"
             ><input
               type="email"
               class="subscription-footer-input"
@@ -446,14 +446,14 @@
               placeholder="E-mail"
           /></label>
           <button class="subscription-btn" type="submit">
-            <div class="subscription-btn-position">
+            <span class="subscription-btn-position">
               <span>Підписатися</span
               ><svg class="subscription-btn-icon">
                 <use href="./images/sprite.svg#icon-telegram"></use>
               </svg>
-            </div>
+            </span>
           </button>
-        </div>
+        </form>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -526,9 +526,8 @@
                 href="./images/sprite.svg#icon-Vector"
               ></use>
             </svg>
-            Погоджуюся з розсилкою та приймаю&nbsp;<a href="#"
-              >Умови договору</a
-            >
+            <span class="modal-form-text-p">Погоджуюся з розсилкою та приймаю</span>
+            &nbsp;<a class="modal-form-text-ruls" href="#">Умови договору</a>
           </label>
           <button type="submit" class="modal-form-submit">Відправити</button>
         </form>
