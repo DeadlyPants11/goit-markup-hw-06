@@ -744,6 +744,8 @@ address {
 
 .subscription-btn-position {
   width: 144px;
+  display: flex;
+  margin-left: 18px;
 }
 
 .subscription-btn {
